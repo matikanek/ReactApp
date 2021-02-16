@@ -1,0 +1,17 @@
+.task-list__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px;
+  box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 100px;
+}
+
+.task-list__item {
+  border-bottom: 2px dashed #e3e3e3;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+}
