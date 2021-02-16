@@ -1,0 +1,33 @@
+.task-list-item__wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 15px;
+}
+
+.task-list-item__priority {
+  width: 15px;
+  margin-right: 30px;
+
+  &--crucial {
+    background-color: red;
+  }
+
+  &--important {
+    background-color: orange;
+  }
+
+  &--not-important {
+    background-color: green;
+  }
+}
+
+.task-list-item__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-list-item__heading {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
